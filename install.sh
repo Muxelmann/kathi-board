@@ -2,7 +2,9 @@
 
 MPY_INSTALL="mpy-esp8266-install"
 
-if [[ -d $MPY_INSTALL ]]; then else
+if [[ -d $MPY_INSTALL ]]; then
+	echo "Submodules ok!"
+else
 	git submodule init
 	git submodule update
 fi

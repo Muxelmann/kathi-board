@@ -1,3 +1,11 @@
 #!/bin/bash
 
-. mpy-esp8266-install/install.sh
+MPY_INSTALL="mpy-esp8266-install"
+
+if [[ -d $MPY_INSTALL ]]; then else
+	git submodule init
+	git submodule update
+fi
+cd
+. install.sh
+cd ..

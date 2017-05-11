@@ -8,6 +8,6 @@ else
 	git submodule init
 	git submodule update
 fi
-cd
+cd $MPY_INSTALL
 . install.sh
 cd ..

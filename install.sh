@@ -2,7 +2,7 @@
 
 MPY_INSTALL="mpy-esp8266-install"
 
-if [[ ":$PATH:" == *"/xtensa-lx106-elf/bin:"  ]]; then
+if [[ ":$PATH:" == *"/xtensa-lx106-elf/bin:"* ]]; then
 	echo "xtensa compiler already installed"
 else
 	git submodule update --init

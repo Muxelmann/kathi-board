@@ -1,0 +1,3 @@
+[submodule "mpy-esp8266-install"]
+	path = mpy-esp8266-install
+	url = https://github.com/Muxelmann/mpy-esp8266-install.git
